@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: findmybizname-platform
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        sync: false
+    disk:
+      name: findmybizname-storage
+      mountPath: /opt/render/project
+      sizeGB: 1
