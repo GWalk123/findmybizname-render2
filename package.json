@@ -1,0 +1,19 @@
+{
+  "name": "findmybizname-platform",
+  "version": "1.0.0",
+  "description": "Complete Business Operating System for 430.5M Underbanked Entrepreneurs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "echo 'No build step needed'"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "keywords": ["business", "naming", "underbanked", "entrepreneurs", "crm", "global"],
+  "author": "FindMyBizName",
+  "license": "MIT"
+}
